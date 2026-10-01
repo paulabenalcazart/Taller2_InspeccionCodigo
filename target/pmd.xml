@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-10-01T17:02:29.605">
+<file name="/Users/paulabenalcazar/Documents/CodeInspection/src/main/java/labcodeinspection/Email.java">
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="22" rule="AvoidFieldNameMatchingTypeName" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidfieldnamematchingtypename" priority="3">
+It is somewhat confusing to have a field name matching the declaring class name
+</violation>
+<violation beginline="18" endline="18" begincolumn="3" endcolumn="20" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="19" endline="19" begincolumn="3" endcolumn="20" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="23" endline="33" begincolumn="3" endcolumn="3" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="48" endline="48" begincolumn="16" endcolumn="45" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="48" endline="48" begincolumn="49" endcolumn="77" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/Users/paulabenalcazar/Documents/CodeInspection/src/main/java/labcodeinspection/EmailApp.java">
+<violation beginline="8" endline="8" begincolumn="11" endcolumn="12" rule="CloseResource" ruleset="Error Prone" package="labcodeinspection" class="EmailApp" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="10" endline="10" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="13" endline="13" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="16" endline="16" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+</file>
+</pmd>
